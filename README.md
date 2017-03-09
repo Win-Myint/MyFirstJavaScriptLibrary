@@ -1,7 +1,7 @@
 # MyFirstJavaScriptLibrary
 
 # Objective
-- To gain practical usages of JavaScript languages, especially in Object Oriented Programming field
+- To gain practical usages of JavaScript language, especially in Object Oriented Programming field
 - Broaden my knowledge within JavaScript
 - Explore and learn new skills
 
