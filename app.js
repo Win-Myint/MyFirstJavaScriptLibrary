@@ -1,5 +1,6 @@
 log = console.log;
 
-var g = G$('Win', 'Myint');
+var g = G$('Win', 'Myint', 'en');
 
-log(g.formalGreetings());
+g.greet(1).setLang('es').greet(1);
+

@@ -3,7 +3,7 @@
 (function(global, $){
 
 	// set up a function with 3 arguments
-	// The function should return a funciton constructor
+	// The function should return a function constructor
 	var Greetr = function(firstName, lastName, language) {
 		return new Greetr.init(firstName, lastName, language);
 	}
@@ -46,7 +46,7 @@
 			return greetings[this.language] + ' ' + this.firstName;
 		},
 
-		formalGreetings: function() {
+		formalGreeting: function() {
 			return formalGreetings[this.language] + ', ' + this.fullName();
 		},
 
@@ -85,11 +85,9 @@
             
             return this;
         }
-
-
 	};
 
-	// Use function constructor to generat an object and set properties
+	// Use function constructor to generate an object and set properties
 	Greetr.init = function(firstName, lastName, language) {
 
 		var self = this;
