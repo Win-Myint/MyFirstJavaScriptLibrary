@@ -1,4 +1,5 @@
 log = console.log;
 
 var g = G$('Win', 'Myint');
-log(g);
+
+log(g.formalGreetings());
