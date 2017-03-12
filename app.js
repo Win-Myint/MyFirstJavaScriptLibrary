@@ -1,11 +1,11 @@
 // gets a new object (the architecture allows us to not have to use the 'new' keyword here)
-var g = G$('Win', 'Myint');
+var g = G$('Win', 'Myint', 'bur');
 
 // use object on the click of the login button
 $('#login').click(function() {
    
     // create a new 'Greetr' object (let's pretend we know the name from the login)
-    var loginGrtr = G$('Win', 'Myint');
+    var loginGrtr = G$('Win', 'Myint', 'bur');
     
      // hide the login on the screen
     $('#logindiv').hide();

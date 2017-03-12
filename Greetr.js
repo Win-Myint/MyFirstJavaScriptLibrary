@@ -9,24 +9,27 @@
     
     // hidden within the scope of the IIFE and never directly accessible
     // however available to Greetr.prototype because of Closure
-    var supportedLangs = ['en', 'es'];
+    var supportedLangs = ['en', 'es', 'bur'];
     
     // informal greetings
     var greetings = {
         en: 'Hello',
-        es: 'Hola'
+        es: 'Hola',
+        bur: 'မင်္ဂလာပါ'
     };
     
     // formal greetings
     var formalGreetings = {
         en: 'Greetings',
-        es: 'Saludos'
+        es: 'Saludos',
+        bur: 'မင်္ဂလာပါ'
     };
     
     // logger messages
     var logMessages = {
         en: 'Logged in',
-        es: 'Inició sesión'
+        es: 'Inició sesión',
+        bur: 'Logged in pwit twar pee par'
     };
     
     // prototype holds methods (to save memory space)
