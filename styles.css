@@ -1,0 +1,15 @@
+/* get rid of default browser sytling */
+html body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#logindiv {
+	margin: 20px 0px;
+	text-align: center;
+}
+
+#greeting {
+	margin: 20px 0px;
+	text-align: center;
+}
