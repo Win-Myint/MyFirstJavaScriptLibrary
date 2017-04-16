@@ -6,8 +6,8 @@
 - Explore and learn new skills
 
 # Project Requirements
-* When given a firstname, lastname, and optional language, it generates formal and informal greeting!
 * Library shouldn't collide with other codes (libraries).
+* When given a firstname, lastname, and optional language, it generates formal and informal greeting!
 * Support English and Burmese languages.
 * Library must be reuseable.
 * Easy to type structure, i am using G$().
