@@ -1,5 +1,4 @@
 // use IIFE to secure my code so it doesn't collide with other libraries
-// safe code increase REUSABLITIY of the library
 (function(global, $) {
     
     // Greetr function return a function constructor 'new Greetr.init'
@@ -7,8 +6,7 @@
         return new Greetr.init(firstName, lastName, language);   
     }
     
-    // hidden within the scope of the IIFE and never directly accessible
-    // however available to Greetr.prototype because of Closure
+    // languages
     var supportedLangs = ['en', 'bur'];
     
     // informal greetings
@@ -74,7 +72,7 @@
         
     };
     
-    // the actual object is created here
+    // the actual "Greetr.init" object is created here
     Greetr.init = function(firstName, lastName, language) {
         
         var self = this;
@@ -84,11 +82,9 @@
         
     }
     
-    // .prototype is just a property available for Greetr.init function constructor
-    // .prototype is not Greetr.init's prototype, its own prototype sit on __proto__
     Greetr.init.prototype = Greetr.prototype;
     
-    // attach our Greetr to the global object
+    // attach Greetr to the global object
     global.Greetr = global.G$ = Greetr;
     
 }(window, jQuery));

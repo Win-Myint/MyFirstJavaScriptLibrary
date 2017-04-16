@@ -2,10 +2,10 @@
 $('#loginBtn').click(function() {
    
     // create a new 'Greetr' object
-    var loginGrtr = G$('Win', 'Myint', 'bur');
+    var loginGrtr = G$('Win', 'Myint', lang.value);
     
      // hide the login on the screen
     $('#logindiv').hide();
     
-    loginGrtr.setLang('en').jQueryGreeting("#greetingContent", true);  
+    loginGrtr.jQueryGreeting("#greetingContent", true);  
 });
