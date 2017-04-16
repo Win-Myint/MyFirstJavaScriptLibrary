@@ -7,10 +7,10 @@
 
 # Project Requirements
 * When given a firstname, lastname, and optional language, it generates formal and informal greeting!
-* Support English and Spanish languages
-* Library must be reuseable
-* Easy to type structure, i am using G$()
-* Library should support jQuery
+* Library shouldn't collide with other codes (libraries).
+* Support English and Burmese languages.
+* Library must be reuseable.
+* Easy to type structure, i am using G$().
 
 # Project detail
-A simple custom JavaScript library that greet users based on the language they choose! 
+A simple custom JavaScript library that can greet to user!
