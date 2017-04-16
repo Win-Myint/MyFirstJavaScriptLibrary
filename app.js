@@ -1,16 +1,11 @@
-// gets a new object (the architecture allows us to not have to use the 'new' keyword here)
-var g = G$('Win', 'Myint', 'bur');
-
 // use object on the click of the login button
-$('#login').click(function() {
+$('#loginBtn').click(function() {
    
-    // create a new 'Greetr' object (let's pretend we know the name from the login)
+    // create a new 'Greetr' object
     var loginGrtr = G$('Win', 'Myint', 'bur');
     
      // hide the login on the screen
     $('#logindiv').hide();
     
-     // fire off an HTML greeting, passing the '#greeting' as the selector and the chosen language, and log the welcome as well
-    loginGrtr.setLang($('#lang').val()).HTMLGreeting('#greeting', true).log();
-    
+    loginGrtr.setLang('en').jQueryGreeting("#greetingContent", true);  
 });
